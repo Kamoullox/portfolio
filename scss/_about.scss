@@ -1,0 +1,23 @@
+.about {
+    background-color: $color-black;
+    padding-top: 2%;
+    padding-bottom: 3%;
+
+    &__title {
+        text-align: center;
+        color: $color-gold;
+    }
+
+    &__description {
+        margin: 0 auto;
+        width: 90%;
+        background-color: $color-white;
+
+        &--texte{
+            color: $color-grey;
+            padding: 8%;
+            font-family: $font-text;
+        }
+    }
+}
+

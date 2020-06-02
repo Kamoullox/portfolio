@@ -1,0 +1,70 @@
+.projets {
+    background-color: $color-gold;
+    text-align: center;
+    font-family: $font-main-title;
+    box-sizing: border-box;
+
+
+    &__title{
+        color: $color-white;
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+
+    &__showtrack {
+        &--photo{
+            background-image: url("../img/showtrack.jpg");
+            background-position: top center;
+            background-size: cover;
+            margin: 1% auto;
+            width: 200px;
+            height: 200px;
+
+        }
+
+        &--title{
+            color: $color-white;
+            margin-bottom: 10%;
+            font-family: $font-title;
+        }
+    }
+
+    &__bootstrap {
+        &--photo{
+            background-image: url("../img/bootstrap.jpg");
+            background-position: top center;
+            background-size: cover;
+            margin: 0 auto;
+            width: 200px;
+            height: 200px;
+        }
+
+        &--title{
+            color: $color-white;
+            margin-bottom: 10%;
+            font-family: $font-title;
+        }
+    }
+
+    &__blog {
+        &--photo{
+            background-image: url("../img/blog.jpg");
+            background-position: top center;
+            background-size: cover;
+            margin: 0 auto;
+            width: 200px;
+            height: 200px;
+        }
+
+        &--title{
+            color: $color-white;
+            padding-bottom: 10%;
+            font-family: $font-title;
+        }
+    }
+}
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}

@@ -1,0 +1,30 @@
+.contact {
+    background-color: $color-black;
+
+    &__title{
+        text-align: center;
+        color: $color-gold;
+    }
+
+    &__formulaire{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        &--nom, &--email, &--objet, &--message{
+            margin-bottom: 3%;
+            border-radius: 5px;
+        }
+
+        &--envoyer{
+            width: 250px;
+            background-color: #5C6D83;
+            color: #A69888;
+            border-radius: 5px;
+            margin: 10px auto 15px auto;
+            font-size: 28px;
+            padding: 8px;
+            text-align: center;
+        }
+    }
+}
